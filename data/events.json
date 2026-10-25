@@ -1,5 +1,5 @@
 [
   {"id": 1, "title": "Git のきほん", "date": "2026-11-12", "place": "会議室A", "capacity": 20},
   {"id": 2, "title": "はじめての自動テスト", "date": "2026-11-26", "place": "オンライン", "capacity": 50},
-  {"id": 3, "title": "レビューの進め方", "date": "2026/12/10", "place": "会議室B", "capacity": 20}
+  {"id": 3, "title": "レビューの進め方", "date": "2026-12-10", "place": "会議室B", "capacity": 20}
 ]
