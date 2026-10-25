@@ -15,7 +15,8 @@ fetch("data/events.json").then(r => r.json()).then(events => {
   events.sort((a, b) => a.date.localeCompare(b.date));
   for (const e of events) {
     const li = document.createElement("li");
-    li.textContent = `${e.date} ${e.title}（${e.place}・定員 ${e.capacity} 名）`;
+const mark = e === events[0] ? "【次回】" : "";
+    li.textContent = `${mark}${e.date} ${e.title}（${e.place}・定員 ${e.capacity} 名）`;
     ul.appendChild(li);
   }
 });
